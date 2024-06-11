@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: 'Kufam', cursive;
+}
+
+header{ 
+    background: linear-gradient(rgb(177, 236, 226), rgb(36, 211, 170));
+    padding: 20px;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 40px;
+}
+
+.structure{
+    display:flex;
+    color: white;
+    align-items: center;
+}
+
+.conteneur{
+   display: flex;
+   justify-content: flex-end;
+   color: white;
+}
+
+.tarifs{
+    background: linear-gradient(rgb(177, 236, 226), rgb(36, 211, 170));
+    color: white;
+    height: 40px;
+    margin: 0;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    padding: 8px;  
+}
+
+.japon{
+    border-radius: 50%;
+    width: 200px;
+    /* height: 200px;*/
+} 
+
+.texte1{
+    background: linear-gradient(to top, rgb(162, 105, 216), rgb(57, 55, 206));
+    display: flex;
+    color:white ;
+    padding: 70px;
+    border-radius: 10px;
+    
+}
+
+.thailande{
+    border-radius: 50%;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    order: 2;
+    
+}
+
+.texte2{
+    background: linear-gradient(to top, rgb(4, 202, 252),rgb(0, 240, 168));
+    display: flex;
+    color:white ;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.inde{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.texte3{
+    background: linear-gradient(to top, rgb(252, 165, 4),rgb(54, 136, 230));
+    display: flex;
+    color:white ;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.footer{
+    background: linear-gradient(rgb(177, 236, 226), rgb(36, 211, 170));
+    color: white;
+    height: 70px;
+    padding: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div a{
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 768px){
+    
+    .texte1{
+        flex-direction: column;
+    }
+    .japon{
+        width: 200px;
+        height: 200px;
+        margin-left: 40px;
+    }
+    .texte2{
+        flex-direction: column;
+    }
+    .thailande{
+        width: 200px;
+        margin-left: 40px;
+    }
+    .texte3{
+        flex-direction: column;
+    }
+    .inde{
+        width: 200px;
+        height: 200px;
+        margin-left: 40px;
+    }
+    
+    footer{
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .conteneur {
+        display: block;
+
+    }
+    .conteneur p {
+        margin: 7px;
+    }
+
+}
+
